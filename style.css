@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+}
+h1{
+    margin: 0;
+    padding-left: 15px;
+    background-color: bisque;
+    
+}
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.to-do{
+    border: 2px outset bisque;
+}
+.to-do p{
+    margin-top: 15px;
+    padding: 5px 20px;
+}
+.to-do span{
+    font-size: 24px;
+    padding-left: 2px;
+}
+.to-do p input{
+    height: 18px;
+    width: 18px;
+}
+.to-do .check{
+    cursor: pointer;
+}
+.to-do .check:checked ~ span{
+    color: lightgray;
+    text-decoration: line-through;
+}
